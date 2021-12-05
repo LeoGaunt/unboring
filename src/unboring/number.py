@@ -1,3 +1,5 @@
+import random
+
 #Multiplies 2 numbers
 def multiply(one, two):
     return one * two
@@ -20,3 +22,7 @@ def smaller(one, two):
         return one
     else:
         return two
+
+#Returns a random number 
+def randomnum(one, two):
+    return random.randint(one,two)
